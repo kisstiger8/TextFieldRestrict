@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA1DC95C1D9B678F00E9475E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1DC95B1D9B678F00E9475E /* main.m */; };
+		BA1DC95F1D9B678F00E9475E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1DC95E1D9B678F00E9475E /* AppDelegate.m */; };
+		BA1DC9621D9B678F00E9475E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1DC9611D9B678F00E9475E /* ViewController.m */; };
+		BA1DC9651D9B678F00E9475E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA1DC9631D9B678F00E9475E /* Main.storyboard */; };
+		BA1DC9671D9B678F00E9475E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA1DC9661D9B678F00E9475E /* Assets.xcassets */; };
+		BA1DC96A1D9B678F00E9475E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA1DC9681D9B678F00E9475E /* LaunchScreen.storyboard */; };
+		BA1DC9751D9B679000E9475E /* TextField____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1DC9741D9B679000E9475E /* TextField____Tests.m */; };
+		BA1DC9801D9B679000E9475E /* TextField____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1DC97F1D9B679000E9475E /* TextField____UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA1DC9711D9B679000E9475E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA1DC94F1D9B678F00E9475E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA1DC9561D9B678F00E9475E;
+			remoteInfo = "TextField输入限制";
+		};
+		BA1DC97C1D9B679000E9475E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA1DC94F1D9B678F00E9475E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA1DC9561D9B678F00E9475E;
+			remoteInfo = "TextField输入限制";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA1DC9571D9B678F00E9475E /* TextField输入限制.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TextField输入限制.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA1DC95B1D9B678F00E9475E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA1DC95D1D9B678F00E9475E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA1DC95E1D9B678F00E9475E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA1DC9601D9B678F00E9475E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BA1DC9611D9B678F00E9475E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BA1DC9641D9B678F00E9475E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA1DC9661D9B678F00E9475E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA1DC9691D9B678F00E9475E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA1DC96B1D9B678F00E9475E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA1DC9701D9B679000E9475E /* TextField输入限制Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TextField输入限制Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA1DC9741D9B679000E9475E /* TextField____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TextField____Tests.m"; sourceTree = "<group>"; };
+		BA1DC9761D9B679000E9475E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA1DC97B1D9B679000E9475E /* TextField输入限制UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TextField输入限制UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA1DC97F1D9B679000E9475E /* TextField____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TextField____UITests.m"; sourceTree = "<group>"; };
+		BA1DC9811D9B679000E9475E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA1DC9541D9B678F00E9475E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA1DC96D1D9B679000E9475E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA1DC9781D9B679000E9475E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA1DC94E1D9B678F00E9475E = {
+			isa = PBXGroup;
+			children = (
+				BA1DC9591D9B678F00E9475E /* TextField输入限制 */,
+				BA1DC9731D9B679000E9475E /* TextField输入限制Tests */,
+				BA1DC97E1D9B679000E9475E /* TextField输入限制UITests */,
+				BA1DC9581D9B678F00E9475E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA1DC9581D9B678F00E9475E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA1DC9571D9B678F00E9475E /* TextField输入限制.app */,
+				BA1DC9701D9B679000E9475E /* TextField输入限制Tests.xctest */,
+				BA1DC97B1D9B679000E9475E /* TextField输入限制UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA1DC9591D9B678F00E9475E /* TextField输入限制 */ = {
+			isa = PBXGroup;
+			children = (
+				BA1DC95D1D9B678F00E9475E /* AppDelegate.h */,
+				BA1DC95E1D9B678F00E9475E /* AppDelegate.m */,
+				BA1DC9601D9B678F00E9475E /* ViewController.h */,
+				BA1DC9611D9B678F00E9475E /* ViewController.m */,
+				BA1DC9631D9B678F00E9475E /* Main.storyboard */,
+				BA1DC9661D9B678F00E9475E /* Assets.xcassets */,
+				BA1DC9681D9B678F00E9475E /* LaunchScreen.storyboard */,
+				BA1DC96B1D9B678F00E9475E /* Info.plist */,
+				BA1DC95A1D9B678F00E9475E /* Supporting Files */,
+			);
+			path = "TextField输入限制";
+			sourceTree = "<group>";
+		};
+		BA1DC95A1D9B678F00E9475E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA1DC95B1D9B678F00E9475E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA1DC9731D9B679000E9475E /* TextField输入限制Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BA1DC9741D9B679000E9475E /* TextField____Tests.m */,
+				BA1DC9761D9B679000E9475E /* Info.plist */,
+			);
+			path = "TextField输入限制Tests";
+			sourceTree = "<group>";
+		};
+		BA1DC97E1D9B679000E9475E /* TextField输入限制UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA1DC97F1D9B679000E9475E /* TextField____UITests.m */,
+				BA1DC9811D9B679000E9475E /* Info.plist */,
+			);
+			path = "TextField输入限制UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA1DC9561D9B678F00E9475E /* TextField输入限制 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA1DC9841D9B679000E9475E /* Build configuration list for PBXNativeTarget "TextField输入限制" */;
+			buildPhases = (
+				BA1DC9531D9B678F00E9475E /* Sources */,
+				BA1DC9541D9B678F00E9475E /* Frameworks */,
+				BA1DC9551D9B678F00E9475E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TextField输入限制";
+			productName = "TextField输入限制";
+			productReference = BA1DC9571D9B678F00E9475E /* TextField输入限制.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA1DC96F1D9B679000E9475E /* TextField输入限制Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA1DC9871D9B679000E9475E /* Build configuration list for PBXNativeTarget "TextField输入限制Tests" */;
+			buildPhases = (
+				BA1DC96C1D9B679000E9475E /* Sources */,
+				BA1DC96D1D9B679000E9475E /* Frameworks */,
+				BA1DC96E1D9B679000E9475E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA1DC9721D9B679000E9475E /* PBXTargetDependency */,
+			);
+			name = "TextField输入限制Tests";
+			productName = "TextField输入限制Tests";
+			productReference = BA1DC9701D9B679000E9475E /* TextField输入限制Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA1DC97A1D9B679000E9475E /* TextField输入限制UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA1DC98A1D9B679000E9475E /* Build configuration list for PBXNativeTarget "TextField输入限制UITests" */;
+			buildPhases = (
+				BA1DC9771D9B679000E9475E /* Sources */,
+				BA1DC9781D9B679000E9475E /* Frameworks */,
+				BA1DC9791D9B679000E9475E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA1DC97D1D9B679000E9475E /* PBXTargetDependency */,
+			);
+			name = "TextField输入限制UITests";
+			productName = "TextField输入限制UITests";
+			productReference = BA1DC97B1D9B679000E9475E /* TextField输入限制UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA1DC94F1D9B678F00E9475E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "雷馨";
+				TargetAttributes = {
+					BA1DC9561D9B678F00E9475E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					BA1DC96F1D9B679000E9475E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BA1DC9561D9B678F00E9475E;
+					};
+					BA1DC97A1D9B679000E9475E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BA1DC9561D9B678F00E9475E;
+					};
+				};
+			};
+			buildConfigurationList = BA1DC9521D9B678F00E9475E /* Build configuration list for PBXProject "TextField输入限制" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA1DC94E1D9B678F00E9475E;
+			productRefGroup = BA1DC9581D9B678F00E9475E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA1DC9561D9B678F00E9475E /* TextField输入限制 */,
+				BA1DC96F1D9B679000E9475E /* TextField输入限制Tests */,
+				BA1DC97A1D9B679000E9475E /* TextField输入限制UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA1DC9551D9B678F00E9475E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1DC96A1D9B678F00E9475E /* LaunchScreen.storyboard in Resources */,
+				BA1DC9671D9B678F00E9475E /* Assets.xcassets in Resources */,
+				BA1DC9651D9B678F00E9475E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA1DC96E1D9B679000E9475E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA1DC9791D9B679000E9475E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA1DC9531D9B678F00E9475E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1DC9621D9B678F00E9475E /* ViewController.m in Sources */,
+				BA1DC95F1D9B678F00E9475E /* AppDelegate.m in Sources */,
+				BA1DC95C1D9B678F00E9475E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA1DC96C1D9B679000E9475E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1DC9751D9B679000E9475E /* TextField____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA1DC9771D9B679000E9475E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1DC9801D9B679000E9475E /* TextField____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA1DC9721D9B679000E9475E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA1DC9561D9B678F00E9475E /* TextField输入限制 */;
+			targetProxy = BA1DC9711D9B679000E9475E /* PBXContainerItemProxy */;
+		};
+		BA1DC97D1D9B679000E9475E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA1DC9561D9B678F00E9475E /* TextField输入限制 */;
+			targetProxy = BA1DC97C1D9B679000E9475E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA1DC9631D9B678F00E9475E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA1DC9641D9B678F00E9475E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA1DC9681D9B678F00E9475E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA1DC9691D9B678F00E9475E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA1DC9821D9B679000E9475E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA1DC9831D9B679000E9475E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA1DC9851D9B679000E9475E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TextField输入限制/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "leixin.TextField----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA1DC9861D9B679000E9475E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TextField输入限制/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "leixin.TextField----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BA1DC9881D9B679000E9475E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TextField输入限制Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "leixin.TextField----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextField输入限制.app/TextField输入限制";
+			};
+			name = Debug;
+		};
+		BA1DC9891D9B679000E9475E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TextField输入限制Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "leixin.TextField----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextField输入限制.app/TextField输入限制";
+			};
+			name = Release;
+		};
+		BA1DC98B1D9B679000E9475E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TextField输入限制UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "leixin.TextField----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TextField输入限制";
+			};
+			name = Debug;
+		};
+		BA1DC98C1D9B679000E9475E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TextField输入限制UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "leixin.TextField----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TextField输入限制";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA1DC9521D9B678F00E9475E /* Build configuration list for PBXProject "TextField输入限制" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA1DC9821D9B679000E9475E /* Debug */,
+				BA1DC9831D9B679000E9475E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA1DC9841D9B679000E9475E /* Build configuration list for PBXNativeTarget "TextField输入限制" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA1DC9851D9B679000E9475E /* Debug */,
+				BA1DC9861D9B679000E9475E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA1DC9871D9B679000E9475E /* Build configuration list for PBXNativeTarget "TextField输入限制Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA1DC9881D9B679000E9475E /* Debug */,
+				BA1DC9891D9B679000E9475E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA1DC98A1D9B679000E9475E /* Build configuration list for PBXNativeTarget "TextField输入限制UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA1DC98B1D9B679000E9475E /* Debug */,
+				BA1DC98C1D9B679000E9475E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA1DC94F1D9B678F00E9475E /* Project object */;
+}
