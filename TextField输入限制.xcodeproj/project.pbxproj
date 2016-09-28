@@ -15,6 +15,12 @@
 		BA1DC96A1D9B678F00E9475E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA1DC9681D9B678F00E9475E /* LaunchScreen.storyboard */; };
 		BA1DC9751D9B679000E9475E /* TextField____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1DC9741D9B679000E9475E /* TextField____Tests.m */; };
 		BA1DC9801D9B679000E9475E /* TextField____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1DC97F1D9B679000E9475E /* TextField____UITests.m */; };
+		BA1DC98F1D9B73AF00E9475E /* LXTextRestrict.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1DC98E1D9B73AF00E9475E /* LXTextRestrict.m */; };
+		BAA8E35D1D9BC33400F8097F /* UITextField+LXAdjust.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA8E35C1D9BC33400F8097F /* UITextField+LXAdjust.m */; };
+		BAEBCD2D1D9BA150000FCF99 /* LXNumberTextRestrict.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEBCD2C1D9BA150000FCF99 /* LXNumberTextRestrict.m */; };
+		BAEBCD301D9BA1A5000FCF99 /* LXDecimalTextRestrict.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEBCD2F1D9BA1A5000FCF99 /* LXDecimalTextRestrict.m */; };
+		BAEBCD331D9BA1B4000FCF99 /* LXCharacterTextRestrict.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEBCD321D9BA1B4000FCF99 /* LXCharacterTextRestrict.m */; };
+		BAEBCD361D9BA727000FCF99 /* UITextField+LXRestrict.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEBCD351D9BA727000FCF99 /* UITextField+LXRestrict.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,18 @@
 		BA1DC97B1D9B679000E9475E /* TextField输入限制UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TextField输入限制UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA1DC97F1D9B679000E9475E /* TextField____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TextField____UITests.m"; sourceTree = "<group>"; };
 		BA1DC9811D9B679000E9475E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA1DC98D1D9B73AF00E9475E /* LXTextRestrict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXTextRestrict.h; sourceTree = "<group>"; };
+		BA1DC98E1D9B73AF00E9475E /* LXTextRestrict.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXTextRestrict.m; sourceTree = "<group>"; };
+		BAA8E35B1D9BC33400F8097F /* UITextField+LXAdjust.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+LXAdjust.h"; sourceTree = "<group>"; };
+		BAA8E35C1D9BC33400F8097F /* UITextField+LXAdjust.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+LXAdjust.m"; sourceTree = "<group>"; };
+		BAEBCD2B1D9BA150000FCF99 /* LXNumberTextRestrict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXNumberTextRestrict.h; sourceTree = "<group>"; };
+		BAEBCD2C1D9BA150000FCF99 /* LXNumberTextRestrict.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXNumberTextRestrict.m; sourceTree = "<group>"; };
+		BAEBCD2E1D9BA1A5000FCF99 /* LXDecimalTextRestrict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXDecimalTextRestrict.h; sourceTree = "<group>"; };
+		BAEBCD2F1D9BA1A5000FCF99 /* LXDecimalTextRestrict.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXDecimalTextRestrict.m; sourceTree = "<group>"; };
+		BAEBCD311D9BA1B4000FCF99 /* LXCharacterTextRestrict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXCharacterTextRestrict.h; sourceTree = "<group>"; };
+		BAEBCD321D9BA1B4000FCF99 /* LXCharacterTextRestrict.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXCharacterTextRestrict.m; sourceTree = "<group>"; };
+		BAEBCD341D9BA727000FCF99 /* UITextField+LXRestrict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+LXRestrict.h"; sourceTree = "<group>"; };
+		BAEBCD351D9BA727000FCF99 /* UITextField+LXRestrict.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+LXRestrict.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +123,18 @@
 				BA1DC95E1D9B678F00E9475E /* AppDelegate.m */,
 				BA1DC9601D9B678F00E9475E /* ViewController.h */,
 				BA1DC9611D9B678F00E9475E /* ViewController.m */,
+				BA1DC98D1D9B73AF00E9475E /* LXTextRestrict.h */,
+				BA1DC98E1D9B73AF00E9475E /* LXTextRestrict.m */,
+				BAEBCD2B1D9BA150000FCF99 /* LXNumberTextRestrict.h */,
+				BAEBCD2C1D9BA150000FCF99 /* LXNumberTextRestrict.m */,
+				BAEBCD2E1D9BA1A5000FCF99 /* LXDecimalTextRestrict.h */,
+				BAEBCD2F1D9BA1A5000FCF99 /* LXDecimalTextRestrict.m */,
+				BAEBCD311D9BA1B4000FCF99 /* LXCharacterTextRestrict.h */,
+				BAEBCD321D9BA1B4000FCF99 /* LXCharacterTextRestrict.m */,
+				BAEBCD341D9BA727000FCF99 /* UITextField+LXRestrict.h */,
+				BAEBCD351D9BA727000FCF99 /* UITextField+LXRestrict.m */,
+				BAA8E35B1D9BC33400F8097F /* UITextField+LXAdjust.h */,
+				BAA8E35C1D9BC33400F8097F /* UITextField+LXAdjust.m */,
 				BA1DC9631D9B678F00E9475E /* Main.storyboard */,
 				BA1DC9661D9B678F00E9475E /* Assets.xcassets */,
 				BA1DC9681D9B678F00E9475E /* LaunchScreen.storyboard */,
@@ -270,9 +300,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA1DC98F1D9B73AF00E9475E /* LXTextRestrict.m in Sources */,
+				BAEBCD361D9BA727000FCF99 /* UITextField+LXRestrict.m in Sources */,
+				BAEBCD331D9BA1B4000FCF99 /* LXCharacterTextRestrict.m in Sources */,
 				BA1DC9621D9B678F00E9475E /* ViewController.m in Sources */,
 				BA1DC95F1D9B678F00E9475E /* AppDelegate.m in Sources */,
+				BAA8E35D1D9BC33400F8097F /* UITextField+LXAdjust.m in Sources */,
 				BA1DC95C1D9B678F00E9475E /* main.m in Sources */,
+				BAEBCD301D9BA1A5000FCF99 /* LXDecimalTextRestrict.m in Sources */,
+				BAEBCD2D1D9BA150000FCF99 /* LXNumberTextRestrict.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +534,7 @@
 				BA1DC9861D9B679000E9475E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA1DC9871D9B679000E9475E /* Build configuration list for PBXNativeTarget "TextField输入限制Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +543,7 @@
 				BA1DC9891D9B679000E9475E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA1DC98A1D9B679000E9475E /* Build configuration list for PBXNativeTarget "TextField输入限制UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +552,7 @@
 				BA1DC98C1D9B679000E9475E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

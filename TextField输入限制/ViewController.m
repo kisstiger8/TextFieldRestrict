@@ -7,8 +7,14 @@
 //
 
 #import "ViewController.h"
+#import "UITextField+LXRestrict.h"
+#import "UITextField+LXAdjust.h"
 
-@interface ViewController ()
+@interface ViewController ()<UITextFieldDelegate>
+@property (weak, nonatomic) IBOutlet UITextField *textField;
+@property (weak, nonatomic) IBOutlet UITextField *textField2;
+@property (weak, nonatomic) IBOutlet UITextField *textField3;
+@property (weak, nonatomic) IBOutlet UITextField *textField4;
 
 @end
 
@@ -16,7 +22,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    self.textField.restrictType = LXRestrictTypeOnlyDecimal;
+    [self.textField3 setAutoAdjust: true];
+    [self.textField4 setAutoAdjust:true];
 }
 
 - (void)didReceiveMemoryWarning {
